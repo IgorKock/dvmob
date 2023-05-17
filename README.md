@@ -30,7 +30,7 @@ For more information, see a list of `react-native`'s commands [here](https://git
 
 ## Troubleshooting
 
-If you encounter bugs, first check if you're able to [open Divolt in your browser](https://divolt.xyz); also, check if you have any firewall settings that may block the Revolt API.
+If you encounter bugs, first check if you're able to [open Divolt in your browser](https://divolt.xyz); also, check if you have any firewall settings that may block the Divolt API.
 
 If you're still experiencing issues, and there aren't any open issues for the bug(s) you're facing, please [open an issue](https://github.com/IgorKock/dvmob/issues).
 
