@@ -28,7 +28,7 @@ export const SPECIAL_SERVERS = {
 };
 
 // default API URL - when support for other instances is added, this will be the default one
-export const DEFAULT_API_URL = 'https://api.revolt.chat'; // TODO: switch to https://revolt.chat/api when it's available
+export const DEFAULT_API_URL = 'https://api.devolt.xyz'; // TODO: switch to https://revolt.chat/api when it's available
 
 // default max side param - used to specify the size of images
 export const DEFAULT_MAX_SIDE = '128';
@@ -42,6 +42,7 @@ export const INVITE_PATHS = [
   'nightly.revolt.chat/invite',
   'local.revolt.chat/invite',
   'rvlt.gg',
+  'divolt.xyz',
 ];
 
 // regex to find server invites
@@ -57,6 +58,7 @@ export const BOT_INVITE_PATHS = [
   'app.revolt.chat/bot',
   'nightly.revolt.chat/bot',
   'local.revolt.chat/bot',
+  'divolt.xyz/bot',
 ];
 
 // regex to find bot invites
