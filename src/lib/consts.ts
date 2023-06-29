@@ -13,19 +13,19 @@ export const USER_IDS = {
 };
 
 // notable servers (used for the home screen + other features)
-export const SPECIAL_SERVERS = {
+//export const SPECIAL_SERVERS = {
   // the Revolt Lounge
-  lounge: {
-    id: '01F7ZSBSFHQ8TA81725KQCSDDP',
-    invite: 'Testers',
-  },
+  //lounge: {
+    //id: '01F7ZSBSFHQ8TA81725KQCSDDP',
+    //invite: 'Testers',
+  //},
 
   // RVMob's support server
-  supportServer: {
-    id: '01FKES1VJN27SVV4QJX82ZS3ME',
-    invite: 'ZFGGw6ry',
-  },
-};
+  //supportServer: {
+  //  id: '01FKES1VJN27SVV4QJX82ZS3ME',
+   // invite: 'ZFGGw6ry',
+ // },
+//};
 
 // default API URL - when support for other instances is added, this will be the default one
 export const DEFAULT_API_URL = 'https://api.devolt.xyz'; // TODO: switch to https://revolt.chat/api when it's available
@@ -38,10 +38,10 @@ export const DEFAULT_MESSAGE_LOAD_COUNT = 50;
 
 // server invite paths for the official instance
 export const INVITE_PATHS = [
-  'app.revolt.chat/invite',
-  'nightly.revolt.chat/invite',
-  'local.revolt.chat/invite',
-  'rvlt.gg',
+  //'app.revolt.chat/invite',
+ //'nightly.revolt.chat/invite',
+ //'local.revolt.chat/invite',
+ //'rvlt.gg',
   'divolt.xyz',
 ];
 
@@ -55,9 +55,9 @@ export const RE_INVITE = new RegExp(
 
 // bot invite paths for the official instance
 export const BOT_INVITE_PATHS = [
-  'app.revolt.chat/bot',
-  'nightly.revolt.chat/bot',
-  'local.revolt.chat/bot',
+  //'app.revolt.chat/bot',
+  //'nightly.revolt.chat/bot',
+  //'local.revolt.chat/bot',
   'divolt.xyz/bot',
 ];
 
