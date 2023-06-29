@@ -11,7 +11,8 @@ import {
 } from 'react-native';
 import {ErrorBoundary} from 'react-error-boundary';
 import SideMenu from 'react-native-side-menu-updated';
-import AsyncStorage from '@react-native-async-storage/async-storage';
+//import AsyncStorage from '@react-native-async-storage/async-storage';
+import AsyncStorage from '@react-native-async-storage/async-storage/jest/async-storage-mock'
 import MaterialIcon from 'react-native-vector-icons/MaterialIcons';
 // import ConfirmHcaptcha from '@hcaptcha/react-native-hcaptcha';
 import {currentTheme, styles} from './src/Theme';
